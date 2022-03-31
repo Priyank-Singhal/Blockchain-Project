@@ -1,0 +1,46 @@
+.background {
+    position: relative; 
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -4rem;
+}
+
+.background::before {    
+      content: "";
+      background-image: url('../../public/images/bc.jpg');
+      background-size: 140%;
+      background-position: 50px center;     
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.8;
+}
+
+.text {
+  position: relative;
+  width: 150%;
+  height: 40%;
+  padding-top: 4rem;
+  padding-left: 25px;
+  color: rgb(253, 253, 253);
+  -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: grey;
+  text-decoration: none;
+}
